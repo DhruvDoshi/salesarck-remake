@@ -62,7 +62,7 @@ export default function Home() {
         Height: 100dvh 
         Background: Moody dark forest image with heavy Moss -> Black overlay
       */}
-      <section ref={heroRef} className="relative h-[100dvh] w-full overflow-hidden flex items-end">
+      <section ref={heroRef} className="relative min-h-[100dvh] w-full overflow-hidden flex items-end">
         {/* Background Image & Overlay */}
         <div 
           ref={bgRef}
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0 bg-black/30" /> {/* Extra darkening */}
 
         {/* Content aligned bottom-left third */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 pb-24 md:pb-32">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 pb-24 md:pb-32 pt-32 md:pt-40">
           <div className="max-w-3xl">
             <h1 ref={text1Ref} className="font-drama text-5xl md:text-8xl tracking-tighter mb-6 text-cream leading-tight">
               Powering Customer Loyalty & <br/> 
