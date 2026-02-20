@@ -98,10 +98,10 @@ export function StickyArchive() {
         <div className="absolute inset-0 bg-gradient-to-br from-moss/20 to-transparent pointer-events-none" />
         <div className="max-w-5xl w-full grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="font-telemetry text-sm text-moss tracking-widest mb-4 block">01 / ARCHIVE</span>
-            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">The Logic Engine.</h2>
+            <span className="font-telemetry text-sm text-moss tracking-widest mb-4 block">01 / SERVICE</span>
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Loyalty.</h2>
             <p className="font-drama italic text-2xl text-cream/70 leading-relaxed max-w-lg">
-              Precision rule orchestration. We build bespoke white-label loyalty software capable of handling multi-tier VIP status and complex point multipliers at scale.
+              Launch branded loyalty programs that boost repeat customers and lifetime value. Configure loyalty rules, launch offers in minutes, and track real customer engagement.
             </p>
           </div>
           <div className="flex justify-center items-center h-96 relative">
@@ -124,10 +124,10 @@ export function StickyArchive() {
         <div className="absolute inset-0 bg-gradient-to-br from-clay/10 to-transparent pointer-events-none" />
         <div className="max-w-5xl w-full grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="font-telemetry text-sm text-clay tracking-widest mb-4 block">02 / ARCHIVE</span>
-            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">The Audit Matrix.</h2>
+            <span className="font-telemetry text-sm text-clay tracking-widest mb-4 block">02 / SERVICE</span>
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Microsoft 365.</h2>
             <p className="font-drama italic text-2xl text-cream/70 leading-relaxed max-w-lg">
-              Uncompromising cloud infrastructure. Our Microsoft 365 consulting ensures enterprise-grade security and deep compliance scanning across your entire digital surface.
+              Securely assess, migrate, and manage Microsoft 365 for smooth digital transformation. Simplify and strengthen your cloud workplace supported by our team of experts.
             </p>
           </div>
           <div className="flex justify-center items-center h-96 relative w-full">
@@ -149,11 +149,16 @@ export function StickyArchive() {
         <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none" />
         <div className="max-w-5xl w-full grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="font-telemetry text-sm text-cream/50 tracking-widest mb-4 block">03 / ARCHIVE</span>
-            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">The Performance Pulse.</h2>
-            <p className="font-drama italic text-2xl text-cream/70 leading-relaxed max-w-lg">
-              Data is lifeblood. Real-time API telemetry and dynamic customer lifetime value modeling built directly into your native applications.
-            </p>
+            <span className="font-telemetry text-sm text-cream/50 tracking-widest mb-4 block">03 / HIGHLIGHTS</span>
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Key Capabilities.</h2>
+            <div className="font-drama italic text-xl text-cream/70 leading-relaxed max-w-lg space-y-2">
+              <p>• Fully white-label branding</p>
+              <p>• Points, rewards, tiers, and milestones</p>
+              <p>• Personalized offers and campaigns</p>
+              <p>• Mobile-friendly customer experience</p>
+              <p>• Customer analytics and insights</p>
+              <p>• POS and third-party integrations</p>
+            </div>
           </div>
           <div className="flex justify-center items-center h-96 relative w-full">
             {/* Artifact 3: Pulsing Waveform */}

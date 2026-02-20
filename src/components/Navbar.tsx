@@ -45,7 +45,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex-shrink-0">
           <Link href="/" className="flex items-center gap-2 group">
-            <span className="font-bold text-xl tracking-tight">Nura<span className="opacity-70">Health</span></span>
+            <span className="font-bold text-xl tracking-tight">Sales<span className="opacity-70">Arck</span></span>
           </Link>
         </div>
 

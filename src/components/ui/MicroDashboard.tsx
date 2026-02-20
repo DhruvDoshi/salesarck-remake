@@ -182,12 +182,12 @@ export function MicroDashboard() {
   return (
     <section className="py-32 bg-cream text-charcoal rounded-t-[3rem] -mt-10 relative z-10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="mb-20 text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
-            The Precision Micro-UI Dashboard
+        <div className="mb-20 text-center max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight mb-6">
+            Flexible Loyalty Programs Built for Real Businesses
           </h2>
           <p className="font-drama italic text-2xl text-charcoal/70">
-            Interactive functional artifacts orchestrating loyalty intelligence and workspace telemetry.
+            Design, launch, and manage loyalty programs that match how your customers buy. Configure points, rewards, and campaigns with full control—no custom development required.
           </p>
         </div>
 
@@ -195,8 +195,8 @@ export function MicroDashboard() {
           {/* Card 1 */}
           <div className="bg-[#EBE9E0] p-6 pb-0 rounded-[2rem] flex flex-col gap-8 shadow-sm border border-black/5 hover:border-black/10 transition-colors">
             <div>
-              <h3 className="text-lg font-semibold mb-1">Loyalty Intelligence</h3>
-              <p className="text-sm text-charcoal/60">Dynamic rule engine orchestration.</p>
+              <h3 className="text-lg font-semibold mb-1">Loyalty</h3>
+              <p className="text-sm text-charcoal/60">Launch Branded Programs that Boosts Customer Retention (Points, Rewards, & Campaign).</p>
             </div>
             <DiagnosticShuffler />
           </div>
@@ -204,8 +204,8 @@ export function MicroDashboard() {
           {/* Card 2 */}
           <div className="bg-[#EBE9E0] p-6 pb-0 rounded-[2rem] flex flex-col gap-8 shadow-sm border border-black/5 hover:border-black/10 transition-colors">
             <div>
-              <h3 className="text-lg font-semibold mb-1">System Telemetry</h3>
-              <p className="text-sm text-charcoal/60">Live Microsoft 365 cloud monitoring.</p>
+              <h3 className="text-lg font-semibold mb-1">Microsoft 365</h3>
+              <p className="text-sm text-charcoal/60">Assessment, Adoption, Training, Deployment and Migration.</p>
             </div>
             <div className="pb-6">
               <TelemetryTypewriter />
@@ -215,8 +215,8 @@ export function MicroDashboard() {
           {/* Card 3 */}
           <div className="bg-[#EBE9E0] p-6 pb-0 rounded-[2rem] flex flex-col gap-8 shadow-sm border border-black/5 hover:border-black/10 transition-colors">
             <div>
-              <h3 className="text-lg font-semibold mb-1">Adaptive Regimen</h3>
-              <p className="text-sm text-charcoal/60">Automated campaign scheduler.</p>
+              <h3 className="text-lg font-semibold mb-1">Trusted Support</h3>
+              <p className="text-sm text-charcoal/60">Mobile-friendly and easy to use. Our team of experts are always available for your support.</p>
             </div>
             <div className="pb-6">
               <ProtocolScheduler />

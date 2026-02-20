@@ -13,25 +13,24 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="font-bold text-3xl tracking-tight mb-6">Sales<span className="opacity-70">Arck</span></h3>
             <p className="font-drama text-2xl text-cream/70 italic max-w-sm">
-              Architecting precision loyalty rules and digital infrastructure for modern enterprises.
+              Helping your business grow with loyalty and Microsoft 365 solutions.
             </p>
           </div>
           
           <div>
             <h4 className="font-bold text-lg mb-6 tracking-wide text-moss">INTELLIGENCE</h4>
             <ul className="space-y-4">
-              <li><Link href="/loyalty-rewards" className="text-cream/70 hover:text-clay transition-colors">Rule Engines</Link></li>
-              <li><Link href="/loyalty-rewards" className="text-cream/70 hover:text-clay transition-colors">Tier Orchestration</Link></li>
-              <li><Link href="/microsoft-365-consulting" className="text-cream/70 hover:text-clay transition-colors">Cloud Audit</Link></li>
-              <li><Link href="/about-us" className="text-cream/70 hover:text-clay transition-colors">Manifesto</Link></li>
+              <li><Link href="/loyalty-rewards" className="text-cream/70 hover:text-clay transition-colors">Loyalty Rewards</Link></li>
+              <li><Link href="/microsoft-365-consulting" className="text-cream/70 hover:text-clay transition-colors">Microsoft 365 Consulting</Link></li>
+              <li><Link href="/about-us" className="text-cream/70 hover:text-clay transition-colors">About Us</Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-bold text-lg mb-6 tracking-wide text-moss">SYSTEM</h4>
             <ul className="space-y-4">
-              <li><Link href="/contact-us" className="text-cream/70 hover:text-clay transition-colors">Documentation</Link></li>
-              <li><Link href="/contact-us" className="text-cream/70 hover:text-clay transition-colors">Support Matrix</Link></li>
+              <li><Link href="/contact-us" className="text-cream/70 hover:text-clay transition-colors">Contact</Link></li>
+              <li><Link href="#" className="text-cream/70 hover:text-clay transition-colors">Follow us on Social Media</Link></li>
             </ul>
             <div className="mt-8 flex items-center gap-3 bg-white/5 px-4 py-2 rounded-full w-fit">
               <span className="relative flex h-2 w-2">
@@ -46,8 +45,8 @@ export default function Footer() {
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-sm text-cream/50">&copy; {new Date().getFullYear()} SalesArck. All rights reserved.</p>
           <div className="flex gap-6">
-            <Link href="/privacy" className="text-sm text-cream/50 hover:text-cream transition-colors">Privacy Lexicon</Link>
-            <Link href="/terms" className="text-sm text-cream/50 hover:text-cream transition-colors">Terms of Service</Link>
+            <Link href="/privacy" className="text-cream/50 hover:text-cream transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="text-cream/50 hover:text-cream transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>
